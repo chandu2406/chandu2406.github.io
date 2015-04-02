@@ -1,0 +1,245 @@
+body {
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	/*font-family: "open sans", arial, sans-serif;*/
+	font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	letter-spacing: 0.01rem;
+	line-height: 1.6;
+}
+
+a {
+	color: #00BFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EC5E3D;
+	text-decoration: none;
+}
+
+.navbar-collapse {
+	padding: 0px;
+	margin: 0px;
+	font-size: 0.8em;
+}
+
+.video-row {
+    margin-top: 20px;
+}
+
+.videowrapper {
+  position: relative;
+  padding-bottom: 65%;
+  height: 0;
+  overflow: hidden;
+}
+.videowrapper iframe,
+.videowrapper object,
+.videowrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.page-header {
+	font-weight: 400;
+	margin: 0px;
+	margin-top: -40px;
+	color: #EC5E3D;
+}
+
+.page-header-mini {
+	font-weight: 200;
+}
+
+.portfolio-item {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.conf-item {
+	margin-bottom: 0px;
+}
+
+.conf-title {
+	font-weight: 400;
+}
+
+.portfolio-item .conf-desc {
+	margin-left: 15px;
+}
+
+.img-responsive {
+	height: 140px;
+	width: 215px;		
+	border: 1px solid #dfdfdf;
+}
+
+.project-gist {
+	background-color: #EC5E3D;
+	opacity: 0.9;
+	position: absolute;
+	top: 0px;
+	width: 215px;
+	height: 140px;
+	opacity: 0;
+}
+
+.portfolio-item:hover .project-gist{
+	opacity: 0.91;
+}
+
+.project-gist-title {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: 400;
+	color: white;
+
+	font-size: 1.4em;
+	font-weight: 400;
+	letter-spacing: 0.01rem;
+	line-height: 1.2;
+}
+
+.project-gist-desc {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+
+	font-size: 1.0em;
+	font-weight: 400;
+	letter-spacing: 0.01rem;
+	line-height: 1.2;
+}
+
+.project-title {
+	font-weight: 400;
+}
+
+.project-gallery-img {
+	width: 450px; 
+	margin-top: 20px;
+	border: 1px solid #f2f2f2; 
+}
+
+.project-gallery-carousel {
+	margin-top: 20px;
+}
+
+ul.pagination {
+	margin: 0px;
+}
+
+.pagination > .active > a {
+	background-color: #EC5E3D;
+	border-color: #EC5E3D;
+}
+
+.pagination > .active > a:hover {
+	background-color: #EC5E3D;
+	border-color: #EC5E3D;
+}
+
+.pagination > li > a {
+	color: #EC5E3D;
+}
+
+.pagination > li > a:hover {
+	color: #EC5E3D;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+  position: relative;
+}
+
+.navbar-toggle {
+	background-color: #dfdfdf;
+	margin-right: 20px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: black;
+}
+
+.navbar-nav > li > a {
+	color: #999;
+	background-color: none;
+}
+
+.navbar-nav > li > a:hover {
+	color: #EC5E3D;
+	background-color: transparent;
+}
+
+.lead {
+	font-size: 16px;
+	line-height: 30px;
+	color: #444;
+}
+
+.carousel-inner .item {
+	border: 1px solid #f2f2f2;
+}
+
+.carousel-inner .gb_item {
+	height: 322px;
+}
+
+.carousel-inner .cs_item {
+	height: 390px;
+}
+
+.carousel-inner .br_item {
+	height: 500px;
+}
+
+.carousel-caption {
+	color: white;
+	background-color: black;
+	width: 100%;
+	opacity: 0.8;
+	text-align: left;
+	position: absolute;
+	left: 0px;
+	bottom: -20px;
+	right: 0px;
+}
+
+.carousel-caption h5 {
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+	text-align: center;
+}
+
+.carousel-indicators {
+	position: absolute;
+	right: 10px;
+	bottom: -6px;
+}
+
+.footer-line {
+
+}
+
+
+/* CSS for Articles */
+
+.feed_item_title {
+	margin-left: 5px;
+}
+
+.feed_item_date {
+	margin-left: 5px;
+}
+
+
+footer {
+	/*position: absolute;
+	bottom: 10px;*/
+}
