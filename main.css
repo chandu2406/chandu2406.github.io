@@ -204,8 +204,16 @@
 				display: inline-block;
 				float:left;
 				border: 1px solid #78C0A8;
-				
+				height: 150px;
+				background: url(img/bg.gif);
 
+
+			}
+
+			.project-tile a {
+
+				text-decoration: none;
+				text-align: center;
 
 			}
 			.project-tile:hover {
@@ -215,15 +223,17 @@
 
 			}
 
-			.project-tile img {
-   				 width: 100%;
-   				 height: auto;
-			}
+			
 
-			div.desc {
-   				 padding: 10px;
-   				 text-align: center;
-			}
+			
+   				 div.desc {
+	padding: 49px;
+	text-align: center;
+	font-family: "Impact";
+	font-size: 25px	;
+	color: white;
+}
+			
 
 			
 
